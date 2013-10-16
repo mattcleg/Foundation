@@ -1,0 +1,132 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+// This includes all of the foundation global elements that are needed to work with any of the other files.
+@import "foundation/variables";
+
+@import "normalize";
+
+// Foundation Components
+@import
+  "foundation/components/global",
+  "foundation/components/grid",
+  "foundation/components/visibility",
+  "foundation/components/block-grid",
+  "foundation/components/type",
+  "foundation/components/buttons",
+  "foundation/components/forms",
+  "foundation/components/custom-forms",
+  "foundation/components/button-groups",
+  "foundation/components/dropdown-buttons",
+  "foundation/components/split-buttons",
+  "foundation/components/flex-video",
+  "foundation/components/section",
+  "foundation/components/top-bar",
+  "foundation/components/orbit",
+  "foundation/components/reveal",
+  "foundation/components/joyride",
+  "foundation/components/clearing",
+  "foundation/components/alert-boxes",
+  "foundation/components/breadcrumbs",
+  "foundation/components/keystrokes",
+  "foundation/components/labels",
+  "foundation/components/inline-lists",
+  "foundation/components/pagination",
+  "foundation/components/panels",
+  "foundation/components/pricing-tables",
+  "foundation/components/progress-bars",
+  "foundation/components/side-nav",
+  "foundation/components/sub-nav",
+  "foundation/components/switch",
+  "foundation/components/magellan",
+  "foundation/components/tables",
+  "foundation/components/thumbs",
+  "foundation/components/tooltips",
+  "foundation/components/dropdown";
+
+// Typography resets
+
+h1,h2, h3, h4, h5, h6 {
+  font-family: "NHaasGroteskDSW01-75Bd", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+
+hr {
+  border: solid $primary-color; 
+  border-width: 1px;
+}
+
+//Buttons 
+
+.button {
+  background-color: $green;
+  &:hover { background-color: darken($green, $button-function-factor); }
+  border-color: darken($green, $button-function-factor); 
+}
+
+// Top bar
+
+#nav {margin-top: 1.5em;}
+
+.top-bar {
+  .name {
+    h1 a {
+      /*color: $header-font-color;
+      background: url("/images/logo.svg") no-repeat 0 8px;
+      background-size: contain;
+      width: 145px;
+      text-indent: -9999px;*/
+      font-size: 28px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.no-svg .top-bar {
+  .name {
+    h1 a {
+      /*color: $header-font-color;
+      background: url("/images/logo.png") 0 6px;
+      background-size: contain;
+      height: 37px;
+      width: 145px;
+      text-indent: 0px;
+      display: block;*/
+    }
+  }
+}
+
+.top-bar-section {
+  ul {background: none;}
+
+  .dropdown li.title h5 a {background: #222222; color: #fff;}
+}
+
+
+
+
+// Section
+
+h2.center {text-align: center;}
+
+#welcome, #info, #news, #video, #partners {
+  padding: 1.5em 0 1.5em 0;
+}
+
+#welcome {background-color: #ffffff;}
+#info, #news, #video, #partners {background-color: rgb(243, 243, 243);}
+
+.championship {
+}
+
+
+//News 
+.news-item {
+  img {padding-bottom: 2em;}
+}
+
+// Footer
+footer {
+  background-color: $primary-color;
+  a {color: $secondary-color;}
+}
