@@ -1,6 +1,6 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8326",
+  "creatorBuild" : "8300",
   "files" : {
     "\/css\/foundation\/components\/_pricing-tables.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -325,6 +325,17 @@
       "outputAbbreviatedPath" : "\/js\/foundation\/foundation.joyride-ck.js",
       "fileType" : 64
     },
+    "\/js\/foundation\/foundation.forms.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.forms.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.forms-ck.js",
+      "fileType" : 64
+    },
     "\/css\/foundation\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -336,17 +347,6 @@
       "outputAbbreviatedPath" : "\/_variables.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/js\/foundation\/foundation.forms.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.forms.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.forms-ck.js",
-      "fileType" : 64
     },
     "\/css\/foundation\/components\/_side-nav.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -392,6 +392,18 @@
       "inputAbbreviatedPath" : "\/searchform.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/css\/_grids.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_grids.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/_grids.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/css\/foundation\/components\/_progress-bars.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -860,6 +872,15 @@
       "outputAbbreviatedPath" : "\/js\/foundation\/foundation.magellan-ck.js",
       "fileType" : 64
     },
+    "\/functions.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/js\/foundation\/foundation.clearing.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -870,15 +891,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/foundation\/foundation.clearing-ck.js",
       "fileType" : 64
-    },
-    "\/functions.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/css\/print.css" : {
       "ignoreWasSetByUser" : 0,
@@ -970,6 +982,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/js\/foundation\/foundation.alerts.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.alerts.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.alerts-ck.js",
+      "fileType" : 64
+    },
     "\/css\/foundation\/components\/_global.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -981,17 +1004,6 @@
       "outputAbbreviatedPath" : "\/_global.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/js\/foundation\/foundation.alerts.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.alerts.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.alerts-ck.js",
-      "fileType" : 64
     },
     "\/css\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1024,10 +1036,7 @@
     "sassAutoOutputPathStyle" : 2,
     "stylusAutoOutputPathReplace2" : "css",
     "lessAutoOutputPathStyle" : 2,
-    "lessIECompatibility" : 1,
     "genericWebpageFileExtensionsString" : "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
-    "lessStrictUnits" : 0,
-    "lessStrictMath" : 0,
     "coffeeMinifyOutput" : 1,
     "javascriptOutputSuffix" : "-ck",
     "jadeOutputStyle" : 0,
@@ -1176,7 +1185,6 @@
     "jadeCompileDebug" : 1,
     "slimRailsCompatible" : 0,
     "kitAutoOutputPathReplace2" : "",
-    "lessRelativeURLS" : 0,
     "lessDebugStyle" : 0,
     "javascriptAutoOutputPathRelativePath" : "",
     "slimAutoOutputPathStyle" : 0

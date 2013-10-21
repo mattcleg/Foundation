@@ -505,6 +505,21 @@ iframe,
 object {
   max-width: 100%; }
 
-/* line 17, css/style.scss */
+/* line 19, css/style.scss */
 #test {
   font-family: 'Arial', 'Georgia', sans-serif; }
+
+/* line 21, css/style.scss */
+.page {
+  *zoom: 1;
+  max-width: 59em;
+  _width: 59em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .page:after {
+    content: "";
+    display: table;
+    clear: both; }

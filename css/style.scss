@@ -12,6 +12,12 @@ Tags: two-columns
 */
 
 @import "normalize";
+@import "susy";
 @import "defaults";
+@import "grids";
 
 #test {font-family: 'Arial', 'Georgia', sans-serif;}
+
+.page {
+	@include container;
+}
