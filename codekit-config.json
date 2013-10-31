@@ -1,6 +1,6 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8326",
+  "creatorBuild" : "8348",
   "files" : {
     "\/css\/foundation\/components\/_pricing-tables.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -325,6 +325,17 @@
       "outputAbbreviatedPath" : "\/js\/foundation\/foundation.joyride-ck.js",
       "fileType" : 64
     },
+    "\/js\/foundation\/foundation.forms.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.forms.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.forms-ck.js",
+      "fileType" : 64
+    },
     "\/css\/foundation\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -336,17 +347,6 @@
       "outputAbbreviatedPath" : "\/_variables.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/js\/foundation\/foundation.forms.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.forms.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.forms-ck.js",
-      "fileType" : 64
     },
     "\/css\/foundation\/components\/_side-nav.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -392,6 +392,18 @@
       "inputAbbreviatedPath" : "\/searchform.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/css\/_grids.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/_grids.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/_grids.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/css\/foundation\/components\/_progress-bars.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1082,6 +1094,7 @@
       "trailing" : 1,
       "nonew" : 1,
       "es3" : 0,
+      "freeze" : true,
       "yui" : 0,
       "mootools" : 0,
       "proto" : 0,
@@ -1117,6 +1130,7 @@
       "unused" : 1,
       "debug" : 0,
       "bitwise" : 1,
+      "notypeof" : true,
       "white" : 0,
       "browser" : 1,
       "worker" : 0,
@@ -1143,7 +1157,6 @@
       "newcap" : 0,
       "sloppy" : 0,
       "closure" : 0,
-      "es5" : 0,
       "browser" : 1,
       "properties" : 0,
       "plusplus" : 0,

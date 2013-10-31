@@ -11,7 +11,14 @@ Description: Foundation for WordPress, a Responsive Starter Theme.
 Tags: two-columns
 */
 
+
 @import "normalize";
 @import "defaults";
+@import "susy";
+@import "grids";
 
 #test {font-family: 'Arial', 'Georgia', sans-serif;}
+
+.page {
+	@include container;
+}
